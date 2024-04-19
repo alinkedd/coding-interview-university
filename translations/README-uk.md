@@ -2,17 +2,17 @@
 
 Original in [English](README.md)
 
-> Спочатку я створив це як короткий список завдань для вивчення тем, щоб стати інженером-програмістом,
-> але він збільшився до великого списку, який ви бачите сьогодні. Пройшовши цей навчальний план, [мене найняли
-> розробником програмного забезпечення в Amazon](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)!
+> Колись я починав цей проєкт як короткий перелік завдань для вивчення тем, необхідних, щоб стати інженером-програмістом,
+> але він переріс у величезний список, який ви бачите сьогодні. Після проходження цього навчального плану [мене найняли
+> інженером розробки програмного забезпечення в Amazon](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)!
 > You probably won't have to study as much as I did. Anyway, everything you need is here.
 >
-> Я навчався приблизно 8-12 годин на день, протягом декількох місяців. Це моя історія: [Чому я навчався очно протягом 8 місяців для інтерв’ю в Google](https://medium.freecodecamp.org/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13).
+> Я навчався приблизно 8-12 годин на день протягом декількох місяців. Ось моя історія: ["Чому я навчався повний робочий день протягом 8 місяців для співбесіди в Google" (англ.)](https://medium.freecodecamp.org/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13).
 >
 > **Please Note:** You won't need to study as much as I did. I wasted a lot of time on things I didn't need to know. More info about that is below. I'll help you get there without wasting your precious time.
 > 
-> Перелічені тут ресурси добре підготують вас до технічної співбесіди практично в будь-якій компанії,
-> включаючи гігантів: Amazon, Facebook, Google та Microsoft.
+> Перелічені тут ресурси відмінно підготують вас до технічної співбесіди в практично будь-яку компанію,
+> включно з гігантами: Amazon, Facebook, Google та Microsoft.
 >
 > *Нехай щастить!*
 
@@ -38,7 +38,7 @@ Original in [English](README.md)
 </details>
 
 <details>
-<summary>Переклади в процесі:</summary>
+<summary>Незавершені переклади:</summary>
 
 - [Afrikaans](https://github.com/jwasham/coding-interview-university/issues/1164)
 - [Arabic](https://github.com/jwasham/coding-interview-university/issues/98)
@@ -64,9 +64,9 @@ Original in [English](README.md)
     <hr />
 </div>
 
-## Що це?
+## Що це таке?
 
-![Програмування у дошки — з серіалу "Silicon Valley" HBO](https://d3j2pkmjtin6ou.cloudfront.net/coding-at-the-whiteboard-silicon-valley.png)
+![Програмування у дошки — із серіалу "Silicon Valley" від HBO](https://d3j2pkmjtin6ou.cloudfront.net/coding-at-the-whiteboard-silicon-valley.png)
 
 This is my multi-month study plan for becoming a software engineer for a large company.
 
@@ -87,10 +87,10 @@ For a complete CS self-taught program, the resources for my study plan have been
 
 ### The Study Plan
 
-- [Що це?](#Що-це)
-- [Чому це використовувати?](#Чому-це-використовувати)
-- [Як це використовувати](#Як-це-використовувати)
-- [Не почувайтесь недостатньо розумними](#Не-почувайтесь-недостатньо-розумними)
+- [Що це таке?](#що-це-таке)
+- [Для чого це?](#для-чого-це)
+- [Як цим користуватися](#як-цим-користуватися)
+- [Не думайте, що ви не достатньо розумні](#не-думайте-що-ви-не-достатньо-розумні)
 - [A Note About Video Resources](#a-note-about-video-resources)
 - [Choose a Programming Language](#choose-a-programming-language)
 - [Books for Data Structures and Algorithms](#books-for-data-structures-and-algorithms)
@@ -208,26 +208,26 @@ For a complete CS self-taught program, the resources for my study plan have been
 
 ---
 
-## Чому це використовувати?
+## Для чого це?
 
 If you want to work as a software engineer for a large company, these are the things you have to know.
 
 If you missed out on getting a degree in computer science, like I did, this will catch you up and save four years of your life.
 
-Коли я розпочинав цей проект, я не міг відрізнити стек від купи, нічого не знав про Big-O, дерева, або як
-розглянути граф. Якби мені тоді довелось написати алгоритм сортування, то легко можу вас запевнити - він не був би найкращим.
+Коли я розпочинав цей проєкт, я не міг відрізнити стек від купи, нічого не знав ні про велике "O", ні про дерева, ні про те, як
+обійти граф. Якби мені тоді довелось написати алгоритм сортування, то легко можу вас запевнити — він не був би найкращим.
 Всі структури даних, які я колись використовував, були вже вбудовані в мову програмування, а я навіть не знав, як вони працюють
-"під капотом". Мені ніколи не доводилось розбиратись з пам'яттю, окрім випадків, коли я отримував помилку "out of
-memory", тоді мені доводилось шукати вихід з ситуації. Я використовував кілька багатовимірних масивів та
-тисячі звичайних масивів, проте я ніколи не створював структури даних з нуля.
+під капотом. Мені ніколи не доводилось керувати пам'яттю, доки поточний процес не виводив
+помилку "недостатньо пам'яті", і тоді потрібно було шукати якесь рішення. За все життя я використав кілька багатовимірних масивів і
+тисячі асоціативних масивів, проте ніколи не створював структури даних з нуля.
 
-Це дійсно великий план. Він займе місяці. Але якщо ви вже знайомі з багатьма речами з цього списку, то, очевидно, ви витратите значно менше часу.
+Це дійсно великий план. Він займе місяці. Але якщо ви вже знайомі з багатьма речами з цього списку, то витратите значно менше часу.
 
-## Як це використовувати
+## Як цим користуватися
 
-Весь текст нижче - це список, а вам потрібно пройти всі його елементи зверху вниз.
+Весь текст нижче — це структурований список, і вам потрібно братися за відповідний пункт у порядку появи, згори донизу.
 
-Я використовую спеціальну Github розмітку, щоб відслідковувати свій прогрес.
+Я використовую спеціальний різновид розмітки Markdown від Github, включно зі списком завдань, щоб відстежувати свій прогрес.
   - [More about GitHub-flavored markdown](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
 
 ### If you don't want to use git
@@ -240,7 +240,7 @@ If you're open in a code editor that understands markdown, you'll see everything
 
 ### If you're comfortable with git
 
-Створіть нову гілку, аби ви могли теж відмічати зроблені задачі, поміщаючи x в квадратні дужки: [x]
+Створіть нову гілку, аби ви могли теж відмічати зроблені задачі, додавши **x** у квадратні дужки: [x]
 
 1. ***Fork the GitHub repo:*** `https://github.com/jwasham/coding-interview-university` by clicking on the Fork button.
 
@@ -255,7 +255,7 @@ If you're open in a code editor that understands markdown, you'll see everything
     git remote set-url --push upstream DISABLE  # so that you don't push your personal progress back to the original repo
     ```
 
-1. Відмітьте всі елементи X після того, як завершите свої зміни:
+1. Відмітьте всі елементи за допомогою X після того, як завершите свої зміни:
 
     ```bash
     git commit -am "Marked personal progress"
@@ -264,7 +264,7 @@ If you're open in a code editor that understands markdown, you'll see everything
     git push # just pushes to your fork
     ```
 
-## Не почувайтесь недостатньо розумними
+## Не думайте, що ви не достатньо розумні
 
 - Successful software engineers are smart, but many have an insecurity that they aren't smart enough.
 - The following videos may help you overcome this insecurity:
