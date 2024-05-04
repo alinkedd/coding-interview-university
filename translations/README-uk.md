@@ -103,22 +103,22 @@ _Coding Interview University_. Переклад з [англійської](READ
 
 ### Теми для вивчення
 <!-- no toc -->
-- [Algorithmic complexity / Big-O / Asymptotic analysis](#algorithmic-complexity--big-o--asymptotic-analysis)
-- [Data Structures](#data-structures)
-    - [Arrays](#arrays)
-    - [Linked Lists](#linked-lists)
-    - [Stack](#stack)
-    - [Queue](#queue)
-    - [Hash table](#hash-table)
-- [More Knowledge](#more-knowledge)
-    - [Binary search](#binary-search)
-    - [Bitwise operations](#bitwise-operations)
-- [Trees](#trees)
-    - [Trees - Intro](#trees---intro)
-    - [Binary search trees: BSTs](#binary-search-trees-bsts)
-    - [Heap / Priority Queue / Binary Heap](#heap--priority-queue--binary-heap)
-    - balanced search trees (general concept, not details)
-    - traversals: preorder, inorder, postorder, BFS, DFS
+- [Алгоритмічна складність / Велике "О" / Асимптотичний аналіз](#алгоритмічна-складність--велике-о--асимптотичний-аналіз)
+- [Структури даних](#структури-даних)
+    - [Масиви](#масиви)
+    - [Зв'язані списки](#звязані-списки)
+    - [Стек](#стек)
+    - [Черга](#черга)
+    - [Геш-таблиця](#геш-таблиця)
+- [Більше відомостей](#більше-відомостей)
+    - [Двійковий пошук](#двійковий-пошук)
+    - [Бітові операції](#бітові-операції)
+- [Дерева](#дерева)
+    - [Дерева — Вступ](#дерева--вступ)
+    - [Двійкові дерева пошуку (BST)](#двійкові-дерева-пошуку-BST)
+    - [Купа / Черга з пріоритетами / Двійкова купа](#купа--черга-з-пріоритетами--двійкова-купа)
+    - збалансовані дерева пошуку (загальний концепт, без занурення)
+    - обхід дерев: прямий (pre-order), центрований (in-order) та зворотний (post-order) порядок обходу, пошук ушир (BFS) та пошук углиб (DFS)
 - [Sorting](#sorting)
     - selection
     - insertion
@@ -214,7 +214,7 @@ _Coding Interview University_. Переклад з [англійської](READ
 
 Якщо ви, як і я, не змогли отримати ступінь з комп'ютерних наук, це допоможе вам наздогнати і заощадить чотири роки вашого життя.
 
-Коли я розпочинав цей проєкт, я не міг відрізнити стек від купи, нічого не знав ні про велике "O", ні про дерева, ні про те, як
+Коли я розпочинав цей проєкт, я не міг відрізнити стек від купи, нічого не знав ні про велике "О", ні про дерева, ні про те, як
 обійти граф. Якби мені тоді довелось написати алгоритм сортування, то легко можу вас запевнити — він не був би найкращим.
 Всі структури даних, які я колись використовував, були вже вбудовані в мову програмування, а я навіть не знав, як вони працюють
 під капотом. Мені ніколи не доводилось керувати пам'яттю, доки поточний процес не виводив
@@ -501,7 +501,7 @@ _Coding Interview University_. Переклад з [англійської](READ
 - Збір вимог до задачі
 - Аргументувати вирішення задачі так, ніби ви це робите на співбесіді
 - Програмування на дошці чи папері, а не на комп'ютері
-- Визначення часової та просторової складності ваших рішень (див. велике "O" нижче)
+- Визначення часової та просторової складності ваших рішень (див. велике "О" нижче)
 - Перевірка ваших рішень
 
 Є чудовий ознайомлювальний опис методичного, комунікативного вирішення задач під час співбесіди. Ви звісно отримаєте його з книг про
@@ -555,7 +555,7 @@ _Coding Interview University_. Переклад з [англійської](READ
 
 Але не забувайте вирішувати згадані вище задачі з програмування під час навчання!
 
-## Algorithmic complexity / Big-O / Asymptotic analysis
+## Алгоритмічна складність / Велике "О" / Асимптотичний аналіз
 
 - Nothing to implement here, you're just watching videos and taking notes! Yay!
 - There are a lot of videos here. Just watch enough until you understand it. You can always come back and review.
@@ -578,9 +578,9 @@ Well, that's about enough of that.
 When you go through "Cracking the Coding Interview", there is a chapter on this, and at the end there is a quiz to see
 if you can identify the runtime complexity of different algorithms. It's a super review and test.
 
-## Data Structures
+## Структури даних
 
-- ### Arrays
+- ### Масиви
     - [ ] About Arrays:
     	- [Arrays CS50 Harvard University](https://www.youtube.com/watch?v=tI_tIZFyKBw&t=3009s)
         - [Arrays (video)](https://www.coursera.org/lecture/data-structures/arrays-OsBSF)
@@ -613,7 +613,7 @@ if you can identify the runtime complexity of different algorithms. It's a super
         - contiguous in memory, so proximity helps performance
         - space needed = (array capacity, which is >= n) * size of item, but even if 2n, still O(n)
 
-- ### Linked Lists
+- ### Зв'язані списки
     - [ ] Description:
     	- [ ] [Linked Lists CS50 Harvard University](https://www.youtube.com/watch?v=2T-A_GFuoTo&t=650s) - this builds the intuition.
         - [ ] [Singly Linked Lists (video)](https://www.coursera.org/lecture/data-structures/singly-linked-lists-kHhgK)
@@ -649,12 +649,12 @@ if you can identify the runtime complexity of different algorithms. It's a super
         - [Description (video)](https://www.coursera.org/lecture/data-structures/doubly-linked-lists-jpGKD)
         - No need to implement
 
-- ### Stack
+- ### Стек
     - [ ] [Stacks (video)](https://www.coursera.org/lecture/data-structures/stacks-UdKzQ)
     - [ ] [[Review] Stacks in 3 minutes (video)](https://youtu.be/KcT3aVgrrpU)
     - [ ] Will not implement. Implementing with the array is trivial
 
-- ### Queue
+- ### Черга
     - [ ] [Queue (video)](https://www.coursera.org/lecture/data-structures/queues-EShpq)
     - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
     - [ ] [[Review] Queues in 3 minutes (video)](https://youtu.be/D6gu-_tmEpQ)
@@ -674,7 +674,7 @@ if you can identify the runtime complexity of different algorithms. It's a super
         - dequeue: O(1) (linked list and array)
         - empty: O(1) (linked list and array)
 
-- ### Hash table
+- ### Геш-таблиця
     - [ ] Videos:
         - [ ] [Hashing with Chaining (video)](https://www.youtube.com/watch?v=0M_kIqhwbFo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=8)
         - [ ] [Table Doubling, Karp-Rabin (video)](https://www.youtube.com/watch?v=BRO7mVIFt08&index=9&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
@@ -700,9 +700,9 @@ if you can identify the runtime complexity of different algorithms. It's a super
         - get(key)
         - remove(key)
 
-## More Knowledge
+## Більше відомостей
 
-- ### Binary search
+- ### Двійковий пошук
     - [ ] [Binary Search (video)](https://www.youtube.com/watch?v=D5SrAga1pno)
     - [ ] [Binary Search (video)](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
     - [ ] [detail](https://www.topcoder.com/thrive/articles/Binary%20Search)
@@ -712,7 +712,7 @@ if you can identify the runtime complexity of different algorithms. It's a super
         - binary search (on a sorted array of integers)
         - binary search using recursion
 
-- ### Bitwise operations
+- ### Бітові операції
     - [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/bits-cheat-sheet.pdf)
         - you should know many of the powers of 2 from (2^1 to 2^16 and 2^32)
     - [ ] Get a really good understanding of manipulating bits with: &, |, ^, ~, >>, <<
@@ -740,9 +740,9 @@ if you can identify the runtime complexity of different algorithms. It's a super
     - [ ] Absolute value:
         - [Absolute Integer](https://bits.stephan-brumme.com/absInteger.html)
 
-## Trees
+## Дерева
 
-- ### Trees - Intro
+- ### Дерева — Вступ
     - [ ] [Intro to Trees (video)](https://www.coursera.org/lecture/data-structures/trees-95qda)
     - [ ] [Tree Traversal (video)](https://www.coursera.org/lecture/data-structures/tree-traversal-fr51b)
     - [ ] [BFS(breadth-first search) and DFS(depth-first search) (video)](https://www.youtube.com/watch?v=uWL6FJhq5fM)
@@ -762,7 +762,7 @@ if you can identify the runtime complexity of different algorithms. It's a super
     - [ ] [[Review] Depth-first search in 4 minutes (video)](https://youtu.be/Urx87-NMm6c)
     - [ ] [[Review] Tree Traversal (playlist) in 11 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZO1JC2RgEi04nLy6D-rKk6b)
 
-- ### Binary search trees: BSTs
+- ### Двійкові дерева пошуку (BST)
     - [ ] [Binary Search Tree Review (video)](https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
     - [ ] [Introduction (video)](https://www.coursera.org/learn/data-structures/lecture/E7cXP/introduction)
     - [ ] [MIT (video)](https://www.youtube.com/watch?v=76dhtgZt38A&ab_channel=MITOpenCourseWare)
@@ -790,7 +790,7 @@ if you can identify the runtime complexity of different algorithms. It's a super
         - [ ] delete_value
         - [ ] get_successor // returns the next-highest value in the tree after given value, -1 if none
 
-- ### Heap / Priority Queue / Binary Heap
+- ### Купа / Черга з пріоритетами / Двійкова купа
     - visualized as a tree, but is usually linear in storage (array, linked list)
     - [ ] [Heap](https://en.wikipedia.org/wiki/Heap_(data_structure))
     - [ ] [Introduction (video)](https://www.coursera.org/lecture/data-structures/introduction-2OpTs)
